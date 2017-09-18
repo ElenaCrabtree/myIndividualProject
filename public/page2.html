@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+  
+      Author: 
+      Date:   
+
+      Filename: page 2.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet" href="styles.css" />
+   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" type="text/css">
+  
+</head>
+
+<body>
+   <div id="container">
+      <header>
+         <h1>
+            <img src="https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2FLogomakr_50L9d3.png?1505265640091" alt="INFO 301 - Student Project" title="" />
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>  <!-- sends the user to the home page -->
+            <li id="currentpage"><a href="#">Products</a></li>  <!-- sends the user to the product page -->
+            <li id="page3.html"><a href="/page3.html">Orders</a></li>  <!-- sends the user to order page -->
+            <li id="page4.html"><a href="/page4.html">About</a></li>    <!-- sends the user to about page -->
+        </ul>
+      </nav>
+     <aside>
+         <figure>
+             <img src="#" width="200" height="225" alt="" title="" id="chairImg" />
+             <figcaption>
+                <script>
+                  
+                  //declare and initialize variables to hold the image source values   Ref page 38-39
+		 
+                 var desk = "https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2FDesk%20Chair.jpg?1505267540417";
+                 var accent = "https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2Faccent.jpg?1505404451438";
+                 var lounge = "https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2Flounge.jpg?1505404741963";
+                var arm = "https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2Farm.jpg?1505404901942";
+                var dinning = "https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2Fdinning.jpg?1505404897664";
+                var patio = "https://cdn.glitch.com/87ac13f1-c54d-4668-85cd-96ed8aa6f085%2Fpatio.jpg?1505404893049";
+                  
+		        </script>
+        </figcaption>
+       </figure>
+     </aside>
+
+      <article>
+         <h2>Here are a few of our products, click the one you would like to see</h2> <!-- a little of our avaible products, need to add photos of the products--> 
+         <p onclick="document.getElementById('chairImg').src=desk">Desk chairs</p> <!-- all the products are clickable and pull up an image-->
+         <p onclick="document.getElementById('chairImg').src=accent">Accent chairs</p>
+         <p onclick="document.getElementById('chairImg').src=lounge">Lounge chairs</p>
+         <p onclick="document.getElementById('chairImg').src=arm">Arm chairs</p>
+         <p onclick="document.getElementById('chairImg').src=dinning">Dinning chairs</p>
+         <p onclick="document.getElementById('chairImg').src=patio">Patio chairs</p>
+      </article>
+    
+      <footer>
+         <p>The Chair Company &bull; Salisbury, Maryland</p>
+      </footer>
+   </div>
+  <script src="script.js"></script>
+</body>
+</html>
